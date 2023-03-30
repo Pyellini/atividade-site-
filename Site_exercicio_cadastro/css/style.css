@@ -1,0 +1,107 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+
+
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+.header{
+width: 100%;
+background-color: black;
+border-bottom: solid aqua 3px;
+
+}
+
+
+.header .container{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    color: aqua ;
+    
+}
+
+.navBar{
+width: 300px;
+display: flex;
+color: #bd9762;
+display: flex;
+list-style: none;
+justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: #bd9762;
+
+}
+
+
+.banner{
+    background-size: cover;
+    background-image: url(../imagem/bg-jelly-fish-para_outras_pags.png);
+    width: 100%;
+    height: 450px;
+}
+
+.banner .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .container  p{
+    color: white;
+    font-size: 25px;
+    width: 200px;
+
+    
+}
+
+.banner .container p span {
+font-weight: 800;
+}
+
+
+/*comeco social*/
+
+.social {
+    background-color: #cdcdcd;
+}
+
+.social .container .card img{
+    width: 100px;
+    height: 100px;
+}
+
+.social .container {
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card h4{
+    color: #d7427d;
+}
+
+.card p {
+    width: 200px;
+    text-align: justify;
+}
